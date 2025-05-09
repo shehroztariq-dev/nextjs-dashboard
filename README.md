@@ -27,3 +27,36 @@ This project is a modern, full-stack admin dashboard built with **Next.js 14**, 
 
 ## 📁 Project Structure
 
+├── app/ # Application routes and components
+│ ├── layout.tsx # Root layout with shared UI
+│ ├── page.tsx # Dashboard home page
+│ └── ... # Additional routes and components
+├── public/ # Static assets
+├── styles/ # Global styles and Tailwind configurations
+├── .env.example # Environment variable examples
+├── next.config.ts # Next.js configuration
+├── tailwind.config.ts # Tailwind CSS configuration
+├── tsconfig.json # TypeScript configuration
+└── package.json # Project dependencies and scripts
+
+🌟 Features
+Responsive Design: Optimized for desktops, tablets, and mobile devices.
+
+Modular Components: Reusable and maintainable UI components.
+
+Dark Mode Support: Toggle between light and dark themes.
+
+Authentication Ready: Scaffolded for easy integration of authentication providers.
+
+Optimized Performance: Leveraging Next.js features for fast load times and SEO.
+
+🎯 Purpose and Learning Outcomes
+This project was developed to deepen my understanding of:
+
+Next.js App Router: Implementing nested layouts and dynamic routing.
+
+Server-Side Rendering (SSR): Enhancing performance and SEO.
+
+TypeScript Integration: Ensuring type safety and reducing runtime errors.
+
+Tailwind CSS: Rapid UI development with utility-first styling.
